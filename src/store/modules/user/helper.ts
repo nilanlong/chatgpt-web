@@ -28,5 +28,5 @@ export function getLocalState(): UserState {
 }
 
 export function setLocalState(setting: UserState): void {
-  ss.set(LOCAL_NAME, setting)
+  //ss.set(LOCAL_NAME, setting)
 }
